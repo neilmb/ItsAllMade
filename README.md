@@ -1,3 +1,3 @@
 # ItsAllMade
 
-ItsAllMade website: <https://neilmb.github.io/ItsAllMade>
+ItsAllMade website: [ItsAllMade.com](https://itsallmade.com)
