@@ -1,0 +1,23 @@
+{
+  "name": "itsallmade",
+  "version": "1.0.0",
+  "description": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilmb/ItsAllMade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilmb/ItsAllMade/issues"
+  },
+  "homepage": "https://github.com/neilmb/ItsAllMade#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
