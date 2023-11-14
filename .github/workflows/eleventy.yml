@@ -50,8 +50,6 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
-        with:
-          path: ${{ env.BUILD_PATH }}/_site
 
   deploy:
     environment:
