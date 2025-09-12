@@ -68,8 +68,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Clear web cache
     steps:
-      - name: Purge Cloudflare cache
-        uses: jakejarvis/cloudflare-purge-action@master
-        env:
-          CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
-          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+      - name: Purge Cache Cloudflare Zone
+        uses: Jonakemon/cloudflare-purge-cache-action@v1.1.0
+        with:
+          cloudflareZone: ${{ secrets.CLOUDFLARE_ZONE }}
+          cloudflareApiKey: ${{ secrets.CLOUDFLARE_TOKEN }}
