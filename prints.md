@@ -4,7 +4,6 @@ title: Prints
 
 # Prints
 
-Here's my draft of the label. It's probably too long, but I was in the mood to take a stab at it tonight:
 
 This handmade photographic print is made with the cyanotype process. We begin with a mechanically simple view camera that can expose a large piece of film: four inches by five inches. When that film is developed at home in a sequence of chemical baths, it forms a negative version of the image in front of the camera. Light parts of the image are dark and dark parts are transparent.
 
