@@ -10,7 +10,14 @@ This is used for just about every page. It provides the border around the conten
 
 <body>
 <main class="container">
+
+<div class="sidebar">
+  {% include "sidebar.html" %}
+</div>
+
+<div class="content">
   {{ content }}
+</div>
 </main>
 </body>
 
