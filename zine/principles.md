@@ -1,3 +1,8 @@
+---
+layout: layouts/base.html
+title: It's All Made Zine
+---
+
 # ItsAllMade zine
 
 _It's All Made_ is a printed zine to explore a practice for local, small-scale, human-oriented exchange of ideas and information.
