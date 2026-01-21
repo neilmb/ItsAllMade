@@ -8,5 +8,5 @@ grid-template-areas:
 
 }
 .logo { grid-area: logo }
-.sidebar { grid-area: 1 / 1 / 2 / 2; }
-.content { grid-area: 1 / 2 / 2 / 5; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
