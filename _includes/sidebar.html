@@ -8,6 +8,20 @@
   Home
 {% endif %}
 </li>
-<li>Prints</li>
-<li>Zine</li>
+<li>
+{% if page.url != '/prints/' %}
+ <a href="/prints/">Prints</a>
+{% else %}
+  Prints
+{% endif %}
+Prints
+</li>
+<li>
+{% if page.url != '/zine/principles.html' %}
+ <a href="/zine/principles.html">Zine</a>
+{% else %}
+  Zine
+{% endif %}
+Zine
+</li>
 </ul>
