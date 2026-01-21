@@ -11,13 +11,24 @@ This is used for just about every page. It provides the border around the conten
 <body>
 <main class="container">
 
-<div class="sidebar">
-  {% include "sidebar.html" %}
+<div class="logo">
+<h1>
+It's<br/>
+All<br/>
+Made</h1>
 </div>
 
-<div class="content">
+
+<article class="content">
   {{ content }}
-</div>
+</article>
+
+
+<aside class="sidebar">
+  {% include "sidebar.html" %}
+</aside>
+
+
 </main>
 </body>
 
