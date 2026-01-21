@@ -1,10 +1,12 @@
 main.container {
 display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 15px;
-grid-row-gap: 0px;
-}
+gap: 20px;
+grid-template-areas:
+  "logo"
+  "content"
+  "sidebar";
 
+}
+.logo { grid-area: logo }
 .sidebar { grid-area: 1 / 1 / 2 / 2; }
 .content { grid-area: 1 / 2 / 2 / 5; }
