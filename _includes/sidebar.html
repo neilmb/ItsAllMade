@@ -1,7 +1,13 @@
 
 
 <ul>
-<li>Home</li>
+<li>
+{% if page.url != '/' %}
+ <a href="/">Home</a>
+{% else %}
+  Home
+{% endif %}
+</li>
 <li>Prints</li>
 <li>Zine</li>
 </ul>
